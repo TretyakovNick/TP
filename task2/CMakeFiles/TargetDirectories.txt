@@ -1,0 +1,6 @@
+/home/nick/Codes/git/TP/task2/CMakeFiles/rebuild_cache.dir
+/home/nick/Codes/git/TP/task2/CMakeFiles/run.dir
+/home/nick/Codes/git/TP/task2/CMakeFiles/edit_cache.dir
+/home/nick/Codes/git/TP/task2/CMakeFiles/GenerateIndex.dir
+/home/nick/Codes/git/TP/task2/B/CMakeFiles/rebuild_cache.dir
+/home/nick/Codes/git/TP/task2/B/CMakeFiles/edit_cache.dir
