@@ -1,4 +1,5 @@
-//
-// Created by nick on 26.03.19.
-//
+#include <iostream>
+
+int main() {
+}
 

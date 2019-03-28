@@ -5,9 +5,11 @@
 #ifndef GAME_ORCFACTORY_H
 #define GAME_ORCFACTORY_H
 
-#include "Unit.h"
+#include "CArmyFactory.h"
 
 class OrcFactory : CArmyFactory {
+private:
+    MageUnit *create_mage();
 public:
     RangeUnit *create_range();
     MeleeUnit *create_melee();
