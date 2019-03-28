@@ -20,8 +20,6 @@ public:
     Boss(const Boss&) = delete;
     Boss &operator=(const Boss&) = delete;
     static Boss *instance();
-
-    void cast_spell();
 };
 
 #endif //GAME_BOSS_H
