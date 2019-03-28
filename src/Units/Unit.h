@@ -20,8 +20,10 @@ public:
     void set_damage(int dmg);
     void set_mana(int mana);
     void set_attack_range(int range);
+
     Unit() = default;
     virtual ~Unit() = default;
+
     int get_full_hp() const;
     int get_now_hp() const;
     int get_damage() const;
