@@ -6,8 +6,9 @@ set(SOURCE_LIB
         Factories/GoblinFactory.cpp
         Factories/ElfFactory.cpp
         CArmy.cpp
-        Boss/Boss.cpp)
+        Boss/Boss.cpp
+        Maze/MazeCell.cpp )
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
-add_library(unit_lib STATIC ${SOURCE_LIB})
+add_library(lib STATIC ${SOURCE_LIB})
