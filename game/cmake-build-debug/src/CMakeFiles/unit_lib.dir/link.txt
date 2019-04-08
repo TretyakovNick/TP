@@ -1,2 +1,0 @@
-/usr/bin/ar qc libunit_lib.a  CMakeFiles/unit_lib.dir/Factories/OrcFactory.cpp.o CMakeFiles/unit_lib.dir/Units/Unit.cpp.o CMakeFiles/unit_lib.dir/Spells/Spell.cpp.o CMakeFiles/unit_lib.dir/Factories/HumanFactory.cpp.o CMakeFiles/unit_lib.dir/Factories/GoblinFactory.cpp.o CMakeFiles/unit_lib.dir/Factories/ElfFactory.cpp.o CMakeFiles/unit_lib.dir/CArmy.cpp.o CMakeFiles/unit_lib.dir/Boss/Boss.cpp.o
-/usr/bin/ranlib libunit_lib.a

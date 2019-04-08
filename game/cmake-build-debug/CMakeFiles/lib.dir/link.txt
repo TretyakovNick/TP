@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblib.a  CMakeFiles/lib.dir/src/Factories/OrcFactory.cpp.o CMakeFiles/lib.dir/src/Units/Unit.cpp.o CMakeFiles/lib.dir/src/Spells/Spell.cpp.o CMakeFiles/lib.dir/src/Factories/HumanFactory.cpp.o CMakeFiles/lib.dir/src/Factories/GoblinFactory.cpp.o CMakeFiles/lib.dir/src/Factories/ElfFactory.cpp.o CMakeFiles/lib.dir/src/CArmy.cpp.o CMakeFiles/lib.dir/src/Boss/Boss.cpp.o
-/usr/bin/ranlib liblib.a
