@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/game_tests.dir/test.cpp.o CMakeFiles/game_tests.dir/main.cpp.o  -o game_tests ../googletest/googletest-build/googlemock/gtest/libgtest.a ../googletest/googletest-build/googlemock/gtest/libgtest_main.a ../src/libunit_lib.a ../googletest/googletest-build/googlemock/gtest/libgtest.a -lpthread 
