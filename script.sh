@@ -7,7 +7,7 @@ sudo apt-get install libghc-gsasl-dev
 
 git clone https://github.com/akhtyamovpavel/PatternsCollection.git
 
-cd config.ini cp config.ini PatternsCollection/Decorator/cpp-source/configs
+cp config.ini PatternsCollection/Decorator/cpp-source/configs
 
 cd PatternsCollection
 
@@ -16,4 +16,4 @@ sudo make install
 
 cd ../bin
 
-sudo ./Decorator
+./Decorator
