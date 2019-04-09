@@ -6,8 +6,9 @@
 
 Выполняется cmake + make, и затем запускается bin/Decorator.
 
-#Config
-'''
+# Config
+
+```
 [chat]
 token=680500013:AAETbj_knr4JTg8IKStyUlkdrwF5ryRQ8aU
 chat_id=-1001380782816
@@ -15,4 +16,4 @@ chat_id=-1001380782816
 from=tretyakovnm15@gmail.com
 to=nmtretyakov1503@gmail.com
 password=dadaya123dadaya
-'''
+```
