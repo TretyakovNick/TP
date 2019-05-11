@@ -6,3 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/home/nick/Codes/TP/src/Factories/CArmyFactory.h
+../Units/Unit.h
+/home/nick/Codes/TP/src/Units/Unit.h
+
+/home/nick/Codes/TP/src/Factories/ElfFactory.cpp
+ElfFactory.h
+/home/nick/Codes/TP/src/Factories/ElfFactory.h
+
+/home/nick/Codes/TP/src/Factories/ElfFactory.h
+CArmyFactory.h
+/home/nick/Codes/TP/src/Factories/CArmyFactory.h
+
+/home/nick/Codes/TP/src/Spells/Spell.h
+
+/home/nick/Codes/TP/src/Units/Unit.h
+../Spells/Spell.h
+/home/nick/Codes/TP/src/Spells/Spell.h
+vector
+-
+exception
+-
+cassert
+-
+

@@ -10,7 +10,7 @@
 class ElfFactory : public CArmyFactory {
 private:
     MageUnit *create_mage() override;
-
+public:
     MeleeUnit *create_melee() override;
 
     RangeUnit *create_range() override;
