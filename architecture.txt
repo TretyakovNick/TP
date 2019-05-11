@@ -31,3 +31,13 @@
 (Бесплатность и пополнение юнитов в зависимости от времени) (TO DO: Сlass base). Добавил новый ресурс - монетки, получаемые за нейтральных монстров.
 (TO DO: Testset)
 
+
+Схема архитекутры:
+-class Boss: Singleton;
+-class CArmyFactory and _Race_Factory, наследуемые от неё: Abstract factories;
+-classes BaseDecorator and FactoryDecorator: Decorators of abstract factory. Наследуется от СArmyFactory и декорируют его;
+-class Maze - реализация лабиринта (недоделана);
+-class Spell - видимо unused;
+-class Unit - реализацию Unit-a;
+-class CompositeUnit, наследуется от Unit - реализация компоновщика (отрядов юнитов);
+-class CArmy - армия, управляемая юзерами
