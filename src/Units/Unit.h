@@ -7,6 +7,8 @@
 
 #include "../Spells/Spell.h"
 #include <vector>
+#include <exception>
+#include <cassert>
 
 class Unit {
 private:
@@ -21,8 +23,10 @@ public:
     void set_mana(int mana);
     void set_attack_range(int range);
 
-    Unit() = default;
+    Unit();
     virtual ~Unit() = default;
+    virtual Unit* get_composite();
+    virtual void add_unit(Unit *unit);
 
     int get_full_hp() const;
     int get_now_hp() const;

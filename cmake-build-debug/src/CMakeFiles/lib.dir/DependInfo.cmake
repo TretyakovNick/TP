@@ -10,7 +10,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nick/Codes/TP/src/Factories/GoblinFactory.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o"
   "/home/nick/Codes/TP/src/Factories/HumanFactory.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o"
   "/home/nick/Codes/TP/src/Factories/OrcFactory.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Factories/OrcFactory.cpp.o"
+  "/home/nick/Codes/TP/src/FactoryUpgrades/BaseDecorator.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o"
+  "/home/nick/Codes/TP/src/FactoryUpgrades/FactoryDecorator.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o"
   "/home/nick/Codes/TP/src/Spells/Spell.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Spells/Spell.cpp.o"
+  "/home/nick/Codes/TP/src/Units/CompositeUnit.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o"
   "/home/nick/Codes/TP/src/Units/Unit.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Units/Unit.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

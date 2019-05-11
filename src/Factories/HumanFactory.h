@@ -7,11 +7,13 @@
 
 #include "CArmyFactory.h"
 
-class HumanFactory : CArmyFactory {
+class HumanFactory : public CArmyFactory {
 public:
-    RangeUnit *create_range();
-    MeleeUnit *create_melee();
-    MageUnit *create_mage();
+    RangeUnit *create_range() override;
+
+    MeleeUnit *create_melee() override;
+
+    MageUnit *create_mage() override;
 };
 
 #endif //GAME_HUMANFACTORY_H

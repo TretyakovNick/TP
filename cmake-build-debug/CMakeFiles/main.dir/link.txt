@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/main.dir/main.cpp.o  -o main src/libunit_lib.a 
+/usr/bin/c++  -g   CMakeFiles/main.dir/main.cpp.o  -o main src/liblib.a 

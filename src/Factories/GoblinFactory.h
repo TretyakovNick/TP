@@ -7,12 +7,14 @@
 
 #include "CArmyFactory.h"
 
-class GoblinFactory : CArmyFactory {
+class GoblinFactory : public CArmyFactory {
 private:
-    RangeUnit *create_range();
+    RangeUnit *create_range() override;
+
 public:
-    MeleeUnit *create_melee();
-    MageUnit *create_mage();
+    MeleeUnit *create_melee() override;
+
+    MageUnit *create_mage() override;
 };
 
 #endif //GAME_GOBLINFACTORY_H

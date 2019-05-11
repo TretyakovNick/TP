@@ -7,12 +7,13 @@
 
 #include "CArmyFactory.h"
 
-class ElfFactory : CArmyFactory {
+class ElfFactory : public CArmyFactory {
 private:
-    MageUnit *create_mage();
-public:
-    MeleeUnit *create_melee();
-    RangeUnit *create_range();
+    MageUnit *create_mage() override;
+
+    MeleeUnit *create_melee() override;
+
+    RangeUnit *create_range() override;
 };
 
 #endif //GAME_ELFFACTORY_H

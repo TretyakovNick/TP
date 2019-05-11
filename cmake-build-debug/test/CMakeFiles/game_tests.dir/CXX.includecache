@@ -11,8 +11,6 @@ memory
 -
 vector
 -
-Spells/Spell.h
--
 
 ../test/../src/Factories/CArmyFactory.h
 ../Units/Unit.h
@@ -40,6 +38,10 @@ CArmyFactory.h
 ../Spells/Spell.h
 ../test/../src/Spells/Spell.h
 vector
+-
+exception
+-
+assert.h
 -
 
 /home/nick/Codes/TP/test/test.cpp

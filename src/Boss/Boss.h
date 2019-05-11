@@ -7,15 +7,13 @@
 
 #include <memory>
 #include <vector>
-#include <Spells/Spell.h>
 
 class Boss {
 private:
     static Boss* m_instance;
     Boss();
     ~Boss() = default;
-
-    std::vector <Spell*> spells;
+    
 public:
     Boss(const Boss&) = delete;
     Boss &operator=(const Boss&) = delete;

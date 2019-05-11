@@ -2,6 +2,7 @@
 // Created by nick on 27.03.19.
 //
 
+#include <stdexcept>
 #include "Unit.h"
 
 void Unit::set_hp(int hp) {
@@ -45,4 +46,17 @@ int Unit::get_now_mana() const {
 int Unit::get_attack_range() const {
     return attack_range;
 }
+ void Unit::add_unit(Unit *unit) {
+    assert(false);
+}
 
+Unit* Unit::get_composite() {
+    return nullptr;
+}
+
+Unit::Unit() {
+    full_hp = 0, now_hp = 0;
+    full_mana = 0, now_mana = 0;
+    damage = 0;
+    attack_range = 0;
+}

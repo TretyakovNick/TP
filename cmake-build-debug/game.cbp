@@ -133,8 +133,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="unit_lib">
-				<Option output="/home/nick/Codes/TP/cmake-build-debug/src/libunit_lib.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="lib">
+				<Option output="/home/nick/Codes/TP/cmake-build-debug/src/liblib.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/nick/Codes/TP/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -151,14 +151,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 unit_lib"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 lib"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="unit_lib/fast">
-				<Option output="/home/nick/Codes/TP/cmake-build-debug/src/libunit_lib.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="lib/fast">
+				<Option output="/home/nick/Codes/TP/cmake-build-debug/src/liblib.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/nick/Codes/TP/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -175,7 +175,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 unit_lib/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 lib/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nick/Codes/TP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
@@ -465,52 +465,70 @@
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Boss/Boss.cpp">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Boss/Boss.h">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/CArmy.cpp">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/CArmy.h">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Factories/ElfFactory.cpp">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Factories/ElfFactory.h">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Factories/GoblinFactory.cpp">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Factories/GoblinFactory.h">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Factories/HumanFactory.cpp">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Factories/HumanFactory.h">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Factories/OrcFactory.cpp">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Factories/OrcFactory.h">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/FactoryUpgrades/BaseDecorator.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/FactoryUpgrades/BaseDecorator.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/FactoryUpgrades/FactoryDecorator.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/FactoryUpgrades/FactoryDecorator.h">
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Spells/Spell.cpp">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Spells/Spell.h">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Units/CompositeUnit.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Units/CompositeUnit.h">
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Units/Unit.cpp">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Units/Unit.h">
-			<Option target="unit_lib"/>
+			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/test/main.cpp">
 			<Option target="game_tests"/>

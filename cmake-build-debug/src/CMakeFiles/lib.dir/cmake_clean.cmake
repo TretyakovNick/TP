@@ -7,6 +7,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o"
   "CMakeFiles/lib.dir/CArmy.cpp.o"
   "CMakeFiles/lib.dir/Boss/Boss.cpp.o"
+  "CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o"
+  "CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o"
+  "CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o"
   "liblib.pdb"
   "liblib.a"
 )

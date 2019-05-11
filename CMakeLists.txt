@@ -7,7 +7,7 @@ set(SOURCE_LIST main.cpp)
 
 add_executable(main ${SOURCE_LIST})
 
-target_link_libraries(main unit_lib)
+target_link_libraries(main lib)
 
 include(cmake/googletest.cmake)
 fetch_googletest(

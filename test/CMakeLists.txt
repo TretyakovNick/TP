@@ -18,5 +18,5 @@ target_link_libraries(
         game_tests
         gtest
         gtest_main
-        unit_lib
+        lib
 )
