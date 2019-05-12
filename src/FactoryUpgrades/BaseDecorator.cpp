@@ -42,7 +42,12 @@ void BaseDecorator::update_mage_factory(CArmy *army) {
 }
 
 void BaseDecorator::get_melee(CArmy *army, int count) {
-    if (!count) return;
+    if (!count) {
+        return;
+    }
+    if (army->overflow()) {
+        throw NotEnoughSlots{};
+    }
     if (count > now_melee) {
         throw NotEnoughUnits{};
     }
@@ -56,7 +61,12 @@ void BaseDecorator::get_melee(CArmy *army, int count) {
 
 
 void BaseDecorator::get_range(CArmy *army, int count) {
-    if (!count) return;
+    if (!count) {
+        return;
+    }
+    if (army->overflow()) {
+        throw NotEnoughSlots{};
+    }
     if (count > now_range) {
         throw NotEnoughUnits{};
     }
@@ -70,7 +80,12 @@ void BaseDecorator::get_range(CArmy *army, int count) {
 
 
 void BaseDecorator::get_mage(CArmy *army, int count) {
-    if (!count) return;
+    if (!count) {
+        return;
+    }
+    if (army->overflow()) {
+        throw NotEnoughSlots{};
+    }
     if (count > now_mage) {
         throw NotEnoughUnits{};
     }

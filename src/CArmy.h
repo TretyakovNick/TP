@@ -53,6 +53,8 @@ public:
 
     int get_coins() const;
 
+    bool overflow() const;
+
     CompositeUnit *get_slot(int slot) const;
 
     EUnitType get_type(int slot) const;

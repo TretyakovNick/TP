@@ -116,3 +116,7 @@ EUnitType CArmy::get_type(int slot) const {
     }
     return type[slot];
 }
+
+bool CArmy::overflow() const {
+    return free.empty();
+}

@@ -22,17 +22,41 @@ Units/CompositeUnit.h
 Maze/MazeCell.h
 /home/nick/Codes/TP/src/Maze/MazeCell.h
 
+/home/nick/Codes/TP/src/Commands/BaseCommands/BuyBaseUnits.h
+../Command.h
+/home/nick/Codes/TP/src/Commands/Command.h
+
 /home/nick/Codes/TP/src/Commands/Command.h
 ncurses.h
 -
 ../Game.h
 /home/nick/Codes/TP/src/Game.h
 
-/home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.cpp
-QuitGame.h
 /home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.h
+../Command.h
+/home/nick/Codes/TP/src/Commands/Command.h
 
+/home/nick/Codes/TP/src/Commands/MazeCommands/MazeCommands.h
+../Command.h
+/home/nick/Codes/TP/src/Commands/Command.h
+
+/home/nick/Codes/TP/src/Commands/ParseKey.cpp
+GameCommands/QuitGame.h
 /home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.h
+MazeCommands/MazeCommands.h
+/home/nick/Codes/TP/src/Commands/MazeCommands/MazeCommands.h
+SlotCommands/SlotMerge.h
+/home/nick/Codes/TP/src/Commands/SlotCommands/SlotMerge.h
+BaseCommands/BuyBaseUnits.h
+/home/nick/Codes/TP/src/Commands/BaseCommands/BuyBaseUnits.h
+ParseKey.h
+/home/nick/Codes/TP/src/Commands/ParseKey.h
+
+/home/nick/Codes/TP/src/Commands/ParseKey.h
+Command.h
+/home/nick/Codes/TP/src/Commands/Command.h
+
+/home/nick/Codes/TP/src/Commands/SlotCommands/SlotMerge.h
 ../Command.h
 /home/nick/Codes/TP/src/Commands/Command.h
 
