@@ -10,7 +10,7 @@ void BaseDecorator::update_melee_factory(CArmy *army) {
     }
     try {
         army->pay(coins_needed[melee_factory_lvl]);
-    } catch(NotEnoughCoins &e) {
+    } catch (NotEnoughCoins &e) {
         return;
     }
     melee_factory_lvl++;
@@ -23,7 +23,7 @@ void BaseDecorator::update_range_factory(CArmy *army) {
     }
     try {
         army->pay(coins_needed[range_factory_lvl]);
-    } catch(NotEnoughCoins &e) {
+    } catch (NotEnoughCoins &e) {
         return;
     }
     range_factory_lvl++;
@@ -35,13 +35,14 @@ void BaseDecorator::update_mage_factory(CArmy *army) {
     }
     try {
         army->pay(coins_needed[mage_factory_lvl]);
-    } catch(NotEnoughCoins &e) {
+    } catch (NotEnoughCoins &e) {
         return;
     }
     mage_factory_lvl++;
 }
 
 void BaseDecorator::get_melee(CArmy *army, int count) {
+    if (!count) return;
     if (count > now_melee) {
         throw NotEnoughUnits{};
     }
@@ -55,6 +56,7 @@ void BaseDecorator::get_melee(CArmy *army, int count) {
 
 
 void BaseDecorator::get_range(CArmy *army, int count) {
+    if (!count) return;
     if (count > now_range) {
         throw NotEnoughUnits{};
     }
@@ -68,6 +70,7 @@ void BaseDecorator::get_range(CArmy *army, int count) {
 
 
 void BaseDecorator::get_mage(CArmy *army, int count) {
+    if (!count) return;
     if (count > now_mage) {
         throw NotEnoughUnits{};
     }
@@ -79,8 +82,46 @@ void BaseDecorator::get_mage(CArmy *army, int count) {
     army->add_mage(now);
 }
 
-void BaseDecorator::replenish() {
-    now_melee = std::min(now_melee + 1, max_units[melee_factory_lvl]);
-    now_range = std::min(now_range + 1, max_units[range_factory_lvl]);
-    now_mage = std::min(now_mage + 1, max_units[mage_factory_lvl]);
+void BaseDecorator::replenish(int count) {
+    now_melee = std::min(now_melee + count, max_units[melee_factory_lvl]);
+    now_range = std::min(now_range + count, max_units[range_factory_lvl]);
+    now_mage = std::min(now_mage + count, max_units[mage_factory_lvl]);
+}
+
+int BaseDecorator::get_now(EUnitType type) const {
+    if (type == EUnitType::melee) {
+        return now_melee;
+    }
+    if (type == EUnitType::range) {
+        return now_range;
+    }
+    if (type == EUnitType::mage) {
+        return now_mage;
+    }
+    return 0;
+}
+
+int BaseDecorator::get_lvl(EUnitType type) const {
+    if (type == EUnitType::melee) {
+        return melee_factory_lvl;
+    }
+    if (type == EUnitType::range) {
+        return range_factory_lvl;
+    }
+    if (type == EUnitType::mage) {
+        return mage_factory_lvl;
+    }
+    return 0;
+}
+
+void BaseDecorator::get_units(CArmy *army, int count, EUnitType type) {
+    if (type == EUnitType::melee) {
+        return get_melee(army, count);
+    }
+    if (type == EUnitType::mage) {
+        return get_mage(army, count);
+    }
+    if (type == EUnitType::range) {
+        return get_range(army, count);
+    }
 }

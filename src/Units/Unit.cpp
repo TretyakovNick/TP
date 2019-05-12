@@ -5,6 +5,19 @@
 #include <stdexcept>
 #include "Unit.h"
 
+std::string EUnitTypeToString(EUnitType type) {
+    if (type == EUnitType::none) {
+        return "none";
+    }
+    if (type == EUnitType::melee) {
+        return "melee";
+    }
+    if (type == EUnitType::mage) {
+        return "mage";
+    }
+    return "range";
+}
+
 void Unit::set_hp(int hp) {
     full_hp = hp;
     now_hp = hp;
@@ -46,7 +59,8 @@ int Unit::get_now_mana() const {
 int Unit::get_attack_range() const {
     return attack_range;
 }
- void Unit::add_unit(Unit *unit) {
+
+void Unit::add_unit(Unit *unit) {
     assert(false);
 }
 

@@ -15,11 +15,15 @@ void CompositeUnit::relax() {
     now_hp = 0;
     full_mana = 0;
     now_mana = 0;
+    damage = 0;
+    count = 0;
     for (auto &unit : units) {
         full_hp += unit->get_full_hp();
         now_hp += unit->get_now_hp();
         full_mana += unit->get_full_mana();
         now_mana += unit->get_now_mana();
+        count += unit->get_count();
+        damage += unit->get_damage();
     }
 }
 
@@ -37,4 +41,8 @@ CompositeUnit* CompositeUnit::get_composite() const {
 
 int CompositeUnit::size() const {
     return units.size();
+}
+
+int CompositeUnit::get_count() const {
+    return count;
 }

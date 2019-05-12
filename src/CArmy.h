@@ -9,32 +9,56 @@
 #include <iostream>
 #include <vector>
 #include <set>
-#include <Units/Unit.h>
-#include <Units/CompositeUnit.h>
+#include "Units/Unit.h"
+#include "Units/CompositeUnit.h"
+#include "Maze/MazeCell.h"
 
-class NotEnoughCoins : public std::exception {};
-class NotEnoughSlots : public std::exception {};
-class DifferentUnitTypesInSlots : public std::exception {};
+class NotEnoughCoins : public std::exception {
+};
+
+class NotEnoughSlots : public std::exception {
+};
+
+class DifferentUnitTypesInSlots : public std::exception {
+};
+
+class IncorrectSlot : public std::exception {
+};
 
 class CArmy {
+public:
+    const static int MAX_SLOTS = 10;
 private:
     int coins;
-    const static int MAX_SLOTS = 10;
     CompositeUnit *slots[MAX_SLOTS];
-    int type[MAX_SLOTS];
+    EUnitType type[MAX_SLOTS];
     std::set<int> melee_nums;
     std::set<int> range_nums;
     std::set<int> mage_nums;
     std::set<int> free;
 public:
     CArmy();
+
+    CArmy(const CArmy &army);
+
     void pay(int now_coins);
 
+    bool correct_slot(int slot) const;
+
     void add_range(CompositeUnit *range);
+
     void add_melee(CompositeUnit *melee);
+
     void add_mage(CompositeUnit *mage);
 
+    int get_coins() const;
+
+    CompositeUnit *get_slot(int slot) const;
+
+    EUnitType get_type(int slot) const;
+
     void merge(int from, int to);
+
     //void split(int pos, int count);
     void remove(int pos);
 };

@@ -6,17 +6,18 @@
 #define GAME_BASEDECORATOR_H
 
 
-#include <CArmy.h>
+#include "../CArmy.h"
 #include "FactoryDecorator.h"
 
 class BaseDecorator : public FactoryDecorator {
-private:
+public:
     const static int MAX_LVL = 5;
+    const std::vector <int> max_units = {1, 2, 5, 10, 25, 100};
+    const std::vector <int> coins_needed = {5, 25, 100, 1000, 10000};
+private:
     int melee_factory_lvl;
     int range_factory_lvl;
     int mage_factory_lvl;
-    const std::vector <int> max_units = {1, 2, 5, 10, 25, 100};
-    const std::vector <int> coins_needed = {5, 25, 100, 1000, 10000};
     int now_melee, now_range, now_mage;
 public:
     explicit BaseDecorator(CArmyFactory *f) : FactoryDecorator(f) {
@@ -31,7 +32,11 @@ public:
     void get_melee(CArmy * army, int count);
     void get_range(CArmy * army, int count);
     void get_mage(CArmy * army, int count);
-    void replenish();
+    void replenish(int count = 1);
+
+    int get_now(EUnitType type) const;
+    int get_lvl(EUnitType type) const;
+    void get_units(CArmy * army, int count, EUnitType type);
 };
 
 

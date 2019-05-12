@@ -83,22 +83,9 @@ src/CMakeFiles/lib.dir/Units/Unit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Units/Unit.cpp.s"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Units/Unit.cpp -o CMakeFiles/lib.dir/Units/Unit.cpp.s
 
-src/CMakeFiles/lib.dir/Spells/Spell.cpp.o: src/CMakeFiles/lib.dir/flags.make
-src/CMakeFiles/lib.dir/Spells/Spell.cpp.o: ../src/Spells/Spell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/lib.dir/Spells/Spell.cpp.o"
-	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Spells/Spell.cpp.o -c /home/nick/Codes/TP/src/Spells/Spell.cpp
-
-src/CMakeFiles/lib.dir/Spells/Spell.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Spells/Spell.cpp.i"
-	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Codes/TP/src/Spells/Spell.cpp > CMakeFiles/lib.dir/Spells/Spell.cpp.i
-
-src/CMakeFiles/lib.dir/Spells/Spell.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Spells/Spell.cpp.s"
-	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Spells/Spell.cpp -o CMakeFiles/lib.dir/Spells/Spell.cpp.s
-
 src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o: src/CMakeFiles/lib.dir/flags.make
 src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o: ../src/Factories/HumanFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o -c /home/nick/Codes/TP/src/Factories/HumanFactory.cpp
 
 src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.i: cmake_force
@@ -111,7 +98,7 @@ src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.s: cmake_force
 
 src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o: src/CMakeFiles/lib.dir/flags.make
 src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o: ../src/Factories/GoblinFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o -c /home/nick/Codes/TP/src/Factories/GoblinFactory.cpp
 
 src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.i: cmake_force
@@ -124,7 +111,7 @@ src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.s: cmake_force
 
 src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o: src/CMakeFiles/lib.dir/flags.make
 src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o: ../src/Factories/ElfFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o -c /home/nick/Codes/TP/src/Factories/ElfFactory.cpp
 
 src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.i: cmake_force
@@ -137,7 +124,7 @@ src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.s: cmake_force
 
 src/CMakeFiles/lib.dir/CArmy.cpp.o: src/CMakeFiles/lib.dir/flags.make
 src/CMakeFiles/lib.dir/CArmy.cpp.o: ../src/CArmy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/lib.dir/CArmy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/lib.dir/CArmy.cpp.o"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/CArmy.cpp.o -c /home/nick/Codes/TP/src/CArmy.cpp
 
 src/CMakeFiles/lib.dir/CArmy.cpp.i: cmake_force
@@ -148,9 +135,35 @@ src/CMakeFiles/lib.dir/CArmy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/CArmy.cpp.s"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/CArmy.cpp -o CMakeFiles/lib.dir/CArmy.cpp.s
 
+src/CMakeFiles/lib.dir/Maze/Maze.cpp.o: src/CMakeFiles/lib.dir/flags.make
+src/CMakeFiles/lib.dir/Maze/Maze.cpp.o: ../src/Maze/Maze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/lib.dir/Maze/Maze.cpp.o"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Maze/Maze.cpp.o -c /home/nick/Codes/TP/src/Maze/Maze.cpp
+
+src/CMakeFiles/lib.dir/Maze/Maze.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Maze/Maze.cpp.i"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Codes/TP/src/Maze/Maze.cpp > CMakeFiles/lib.dir/Maze/Maze.cpp.i
+
+src/CMakeFiles/lib.dir/Maze/Maze.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Maze/Maze.cpp.s"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Maze/Maze.cpp -o CMakeFiles/lib.dir/Maze/Maze.cpp.s
+
+src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.o: src/CMakeFiles/lib.dir/flags.make
+src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.o: ../src/Maze/MazeCell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.o"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Maze/MazeCell.cpp.o -c /home/nick/Codes/TP/src/Maze/MazeCell.cpp
+
+src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Maze/MazeCell.cpp.i"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Codes/TP/src/Maze/MazeCell.cpp > CMakeFiles/lib.dir/Maze/MazeCell.cpp.i
+
+src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Maze/MazeCell.cpp.s"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Maze/MazeCell.cpp -o CMakeFiles/lib.dir/Maze/MazeCell.cpp.s
+
 src/CMakeFiles/lib.dir/Boss/Boss.cpp.o: src/CMakeFiles/lib.dir/flags.make
 src/CMakeFiles/lib.dir/Boss/Boss.cpp.o: ../src/Boss/Boss.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/lib.dir/Boss/Boss.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/lib.dir/Boss/Boss.cpp.o"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Boss/Boss.cpp.o -c /home/nick/Codes/TP/src/Boss/Boss.cpp
 
 src/CMakeFiles/lib.dir/Boss/Boss.cpp.i: cmake_force
@@ -163,7 +176,7 @@ src/CMakeFiles/lib.dir/Boss/Boss.cpp.s: cmake_force
 
 src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o: src/CMakeFiles/lib.dir/flags.make
 src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o: ../src/Units/CompositeUnit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o -c /home/nick/Codes/TP/src/Units/CompositeUnit.cpp
 
 src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.i: cmake_force
@@ -176,7 +189,7 @@ src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.s: cmake_force
 
 src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o: src/CMakeFiles/lib.dir/flags.make
 src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o: ../src/FactoryUpgrades/FactoryDecorator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o -c /home/nick/Codes/TP/src/FactoryUpgrades/FactoryDecorator.cpp
 
 src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.i: cmake_force
@@ -189,7 +202,7 @@ src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.s: cmake_force
 
 src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: src/CMakeFiles/lib.dir/flags.make
 src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/FactoryUpgrades/BaseDecorator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o -c /home/nick/Codes/TP/src/FactoryUpgrades/BaseDecorator.cpp
 
 src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.i: cmake_force
@@ -200,37 +213,129 @@ src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.s"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/FactoryUpgrades/BaseDecorator.cpp -o CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.s
 
+src/CMakeFiles/lib.dir/Game.cpp.o: src/CMakeFiles/lib.dir/flags.make
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/lib.dir/Game.cpp.o"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Game.cpp.o -c /home/nick/Codes/TP/src/Game.cpp
+
+src/CMakeFiles/lib.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Game.cpp.i"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Codes/TP/src/Game.cpp > CMakeFiles/lib.dir/Game.cpp.i
+
+src/CMakeFiles/lib.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Game.cpp.s"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Game.cpp -o CMakeFiles/lib.dir/Game.cpp.s
+
+src/CMakeFiles/lib.dir/Maze/DSU.cpp.o: src/CMakeFiles/lib.dir/flags.make
+src/CMakeFiles/lib.dir/Maze/DSU.cpp.o: ../src/Maze/DSU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/lib.dir/Maze/DSU.cpp.o"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Maze/DSU.cpp.o -c /home/nick/Codes/TP/src/Maze/DSU.cpp
+
+src/CMakeFiles/lib.dir/Maze/DSU.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Maze/DSU.cpp.i"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Codes/TP/src/Maze/DSU.cpp > CMakeFiles/lib.dir/Maze/DSU.cpp.i
+
+src/CMakeFiles/lib.dir/Maze/DSU.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Maze/DSU.cpp.s"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Maze/DSU.cpp -o CMakeFiles/lib.dir/Maze/DSU.cpp.s
+
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: src/CMakeFiles/lib.dir/flags.make
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Commands/MazeCommands/MazeCommands.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o -c /home/nick/Codes/TP/src/Commands/MazeCommands/MazeCommands.cpp
+
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.i"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Codes/TP/src/Commands/MazeCommands/MazeCommands.cpp > CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.i
+
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.s"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Commands/MazeCommands/MazeCommands.cpp -o CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.s
+
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: src/CMakeFiles/lib.dir/flags.make
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Commands/SlotCommands/SlotMerge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o -c /home/nick/Codes/TP/src/Commands/SlotCommands/SlotMerge.cpp
+
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.i"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Codes/TP/src/Commands/SlotCommands/SlotMerge.cpp > CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.i
+
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.s"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Commands/SlotCommands/SlotMerge.cpp -o CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.s
+
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: src/CMakeFiles/lib.dir/flags.make
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/ParseKey.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Commands/ParseKey.cpp.o -c /home/nick/Codes/TP/src/Commands/ParseKey.cpp
+
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Commands/ParseKey.cpp.i"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Codes/TP/src/Commands/ParseKey.cpp > CMakeFiles/lib.dir/Commands/ParseKey.cpp.i
+
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Commands/ParseKey.cpp.s"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Commands/ParseKey.cpp -o CMakeFiles/lib.dir/Commands/ParseKey.cpp.s
+
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: src/CMakeFiles/lib.dir/flags.make
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Commands/BaseCommands/BuyBaseUnits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o -c /home/nick/Codes/TP/src/Commands/BaseCommands/BuyBaseUnits.cpp
+
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.i"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Codes/TP/src/Commands/BaseCommands/BuyBaseUnits.cpp > CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.i
+
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.s"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Commands/BaseCommands/BuyBaseUnits.cpp -o CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.s
+
 # Object files for target lib
 lib_OBJECTS = \
 "CMakeFiles/lib.dir/Factories/OrcFactory.cpp.o" \
 "CMakeFiles/lib.dir/Units/Unit.cpp.o" \
-"CMakeFiles/lib.dir/Spells/Spell.cpp.o" \
 "CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o" \
 "CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o" \
 "CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o" \
 "CMakeFiles/lib.dir/CArmy.cpp.o" \
+"CMakeFiles/lib.dir/Maze/Maze.cpp.o" \
+"CMakeFiles/lib.dir/Maze/MazeCell.cpp.o" \
 "CMakeFiles/lib.dir/Boss/Boss.cpp.o" \
 "CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o" \
 "CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o" \
-"CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o"
+"CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o" \
+"CMakeFiles/lib.dir/Game.cpp.o" \
+"CMakeFiles/lib.dir/Maze/DSU.cpp.o" \
+"CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o" \
+"CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o" \
+"CMakeFiles/lib.dir/Commands/ParseKey.cpp.o" \
+"CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o"
 
 # External object files for target lib
 lib_EXTERNAL_OBJECTS =
 
 src/liblib.a: src/CMakeFiles/lib.dir/Factories/OrcFactory.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/Units/Unit.cpp.o
-src/liblib.a: src/CMakeFiles/lib.dir/Spells/Spell.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/CArmy.cpp.o
+src/liblib.a: src/CMakeFiles/lib.dir/Maze/Maze.cpp.o
+src/liblib.a: src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/Boss/Boss.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o
+src/liblib.a: src/CMakeFiles/lib.dir/Game.cpp.o
+src/liblib.a: src/CMakeFiles/lib.dir/Maze/DSU.cpp.o
+src/liblib.a: src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o
+src/liblib.a: src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o
+src/liblib.a: src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o
+src/liblib.a: src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/build.make
 src/liblib.a: src/CMakeFiles/lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library liblib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library liblib.a"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean_target.cmake
 	cd /home/nick/Codes/TP/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
 

@@ -32,16 +32,14 @@ CArmyFactory.h
 CArmyFactory.h
 ../test/../src/Factories/CArmyFactory.h
 
-../test/../src/Spells/Spell.h
-
 ../test/../src/Units/Unit.h
-../Spells/Spell.h
-../test/../src/Spells/Spell.h
 vector
 -
 exception
 -
 cassert
+-
+string
 -
 
 /home/nick/Codes/TP/test/test.cpp

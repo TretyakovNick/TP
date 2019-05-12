@@ -32,7 +32,6 @@ test/CMakeFiles/game_tests.dir/test.cpp.o
  ../test/../src/Factories/GoblinFactory.h
  ../test/../src/Factories/HumanFactory.h
  ../test/../src/Factories/OrcFactory.h
- ../test/../src/Spells/Spell.h
  ../test/../src/Units/Unit.h
  /home/nick/Codes/TP/test/test.cpp
  googletest/googletest-src/googletest/include/gtest/gtest-death-test.h

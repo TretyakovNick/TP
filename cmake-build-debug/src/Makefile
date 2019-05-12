@@ -236,6 +236,114 @@ CArmy.cpp.s:
 	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/CArmy.cpp.s
 .PHONY : CArmy.cpp.s
 
+Commands/BaseCommands/BuyBaseUnits.o: Commands/BaseCommands/BuyBaseUnits.cpp.o
+
+.PHONY : Commands/BaseCommands/BuyBaseUnits.o
+
+# target to build an object file
+Commands/BaseCommands/BuyBaseUnits.cpp.o:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o
+.PHONY : Commands/BaseCommands/BuyBaseUnits.cpp.o
+
+Commands/BaseCommands/BuyBaseUnits.i: Commands/BaseCommands/BuyBaseUnits.cpp.i
+
+.PHONY : Commands/BaseCommands/BuyBaseUnits.i
+
+# target to preprocess a source file
+Commands/BaseCommands/BuyBaseUnits.cpp.i:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.i
+.PHONY : Commands/BaseCommands/BuyBaseUnits.cpp.i
+
+Commands/BaseCommands/BuyBaseUnits.s: Commands/BaseCommands/BuyBaseUnits.cpp.s
+
+.PHONY : Commands/BaseCommands/BuyBaseUnits.s
+
+# target to generate assembly for a file
+Commands/BaseCommands/BuyBaseUnits.cpp.s:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.s
+.PHONY : Commands/BaseCommands/BuyBaseUnits.cpp.s
+
+Commands/MazeCommands/MazeCommands.o: Commands/MazeCommands/MazeCommands.cpp.o
+
+.PHONY : Commands/MazeCommands/MazeCommands.o
+
+# target to build an object file
+Commands/MazeCommands/MazeCommands.cpp.o:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o
+.PHONY : Commands/MazeCommands/MazeCommands.cpp.o
+
+Commands/MazeCommands/MazeCommands.i: Commands/MazeCommands/MazeCommands.cpp.i
+
+.PHONY : Commands/MazeCommands/MazeCommands.i
+
+# target to preprocess a source file
+Commands/MazeCommands/MazeCommands.cpp.i:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.i
+.PHONY : Commands/MazeCommands/MazeCommands.cpp.i
+
+Commands/MazeCommands/MazeCommands.s: Commands/MazeCommands/MazeCommands.cpp.s
+
+.PHONY : Commands/MazeCommands/MazeCommands.s
+
+# target to generate assembly for a file
+Commands/MazeCommands/MazeCommands.cpp.s:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.s
+.PHONY : Commands/MazeCommands/MazeCommands.cpp.s
+
+Commands/ParseKey.o: Commands/ParseKey.cpp.o
+
+.PHONY : Commands/ParseKey.o
+
+# target to build an object file
+Commands/ParseKey.cpp.o:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o
+.PHONY : Commands/ParseKey.cpp.o
+
+Commands/ParseKey.i: Commands/ParseKey.cpp.i
+
+.PHONY : Commands/ParseKey.i
+
+# target to preprocess a source file
+Commands/ParseKey.cpp.i:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.i
+.PHONY : Commands/ParseKey.cpp.i
+
+Commands/ParseKey.s: Commands/ParseKey.cpp.s
+
+.PHONY : Commands/ParseKey.s
+
+# target to generate assembly for a file
+Commands/ParseKey.cpp.s:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.s
+.PHONY : Commands/ParseKey.cpp.s
+
+Commands/SlotCommands/SlotMerge.o: Commands/SlotCommands/SlotMerge.cpp.o
+
+.PHONY : Commands/SlotCommands/SlotMerge.o
+
+# target to build an object file
+Commands/SlotCommands/SlotMerge.cpp.o:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o
+.PHONY : Commands/SlotCommands/SlotMerge.cpp.o
+
+Commands/SlotCommands/SlotMerge.i: Commands/SlotCommands/SlotMerge.cpp.i
+
+.PHONY : Commands/SlotCommands/SlotMerge.i
+
+# target to preprocess a source file
+Commands/SlotCommands/SlotMerge.cpp.i:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.i
+.PHONY : Commands/SlotCommands/SlotMerge.cpp.i
+
+Commands/SlotCommands/SlotMerge.s: Commands/SlotCommands/SlotMerge.cpp.s
+
+.PHONY : Commands/SlotCommands/SlotMerge.s
+
+# target to generate assembly for a file
+Commands/SlotCommands/SlotMerge.cpp.s:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.s
+.PHONY : Commands/SlotCommands/SlotMerge.cpp.s
+
 Factories/ElfFactory.o: Factories/ElfFactory.cpp.o
 
 .PHONY : Factories/ElfFactory.o
@@ -398,32 +506,113 @@ FactoryUpgrades/FactoryDecorator.cpp.s:
 	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.s
 .PHONY : FactoryUpgrades/FactoryDecorator.cpp.s
 
-Spells/Spell.o: Spells/Spell.cpp.o
+Game.o: Game.cpp.o
 
-.PHONY : Spells/Spell.o
+.PHONY : Game.o
 
 # target to build an object file
-Spells/Spell.cpp.o:
-	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Spells/Spell.cpp.o
-.PHONY : Spells/Spell.cpp.o
+Game.cpp.o:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Game.cpp.o
+.PHONY : Game.cpp.o
 
-Spells/Spell.i: Spells/Spell.cpp.i
+Game.i: Game.cpp.i
 
-.PHONY : Spells/Spell.i
+.PHONY : Game.i
 
 # target to preprocess a source file
-Spells/Spell.cpp.i:
-	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Spells/Spell.cpp.i
-.PHONY : Spells/Spell.cpp.i
+Game.cpp.i:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Game.cpp.i
+.PHONY : Game.cpp.i
 
-Spells/Spell.s: Spells/Spell.cpp.s
+Game.s: Game.cpp.s
 
-.PHONY : Spells/Spell.s
+.PHONY : Game.s
 
 # target to generate assembly for a file
-Spells/Spell.cpp.s:
-	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Spells/Spell.cpp.s
-.PHONY : Spells/Spell.cpp.s
+Game.cpp.s:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Maze/DSU.o: Maze/DSU.cpp.o
+
+.PHONY : Maze/DSU.o
+
+# target to build an object file
+Maze/DSU.cpp.o:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Maze/DSU.cpp.o
+.PHONY : Maze/DSU.cpp.o
+
+Maze/DSU.i: Maze/DSU.cpp.i
+
+.PHONY : Maze/DSU.i
+
+# target to preprocess a source file
+Maze/DSU.cpp.i:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Maze/DSU.cpp.i
+.PHONY : Maze/DSU.cpp.i
+
+Maze/DSU.s: Maze/DSU.cpp.s
+
+.PHONY : Maze/DSU.s
+
+# target to generate assembly for a file
+Maze/DSU.cpp.s:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Maze/DSU.cpp.s
+.PHONY : Maze/DSU.cpp.s
+
+Maze/Maze.o: Maze/Maze.cpp.o
+
+.PHONY : Maze/Maze.o
+
+# target to build an object file
+Maze/Maze.cpp.o:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Maze/Maze.cpp.o
+.PHONY : Maze/Maze.cpp.o
+
+Maze/Maze.i: Maze/Maze.cpp.i
+
+.PHONY : Maze/Maze.i
+
+# target to preprocess a source file
+Maze/Maze.cpp.i:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Maze/Maze.cpp.i
+.PHONY : Maze/Maze.cpp.i
+
+Maze/Maze.s: Maze/Maze.cpp.s
+
+.PHONY : Maze/Maze.s
+
+# target to generate assembly for a file
+Maze/Maze.cpp.s:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Maze/Maze.cpp.s
+.PHONY : Maze/Maze.cpp.s
+
+Maze/MazeCell.o: Maze/MazeCell.cpp.o
+
+.PHONY : Maze/MazeCell.o
+
+# target to build an object file
+Maze/MazeCell.cpp.o:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.o
+.PHONY : Maze/MazeCell.cpp.o
+
+Maze/MazeCell.i: Maze/MazeCell.cpp.i
+
+.PHONY : Maze/MazeCell.i
+
+# target to preprocess a source file
+Maze/MazeCell.cpp.i:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.i
+.PHONY : Maze/MazeCell.cpp.i
+
+Maze/MazeCell.s: Maze/MazeCell.cpp.s
+
+.PHONY : Maze/MazeCell.s
+
+# target to generate assembly for a file
+Maze/MazeCell.cpp.s:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.s
+.PHONY : Maze/MazeCell.cpp.s
 
 Units/CompositeUnit.o: Units/CompositeUnit.cpp.o
 
@@ -499,6 +688,18 @@ help:
 	@echo "... CArmy.o"
 	@echo "... CArmy.i"
 	@echo "... CArmy.s"
+	@echo "... Commands/BaseCommands/BuyBaseUnits.o"
+	@echo "... Commands/BaseCommands/BuyBaseUnits.i"
+	@echo "... Commands/BaseCommands/BuyBaseUnits.s"
+	@echo "... Commands/MazeCommands/MazeCommands.o"
+	@echo "... Commands/MazeCommands/MazeCommands.i"
+	@echo "... Commands/MazeCommands/MazeCommands.s"
+	@echo "... Commands/ParseKey.o"
+	@echo "... Commands/ParseKey.i"
+	@echo "... Commands/ParseKey.s"
+	@echo "... Commands/SlotCommands/SlotMerge.o"
+	@echo "... Commands/SlotCommands/SlotMerge.i"
+	@echo "... Commands/SlotCommands/SlotMerge.s"
 	@echo "... Factories/ElfFactory.o"
 	@echo "... Factories/ElfFactory.i"
 	@echo "... Factories/ElfFactory.s"
@@ -517,9 +718,18 @@ help:
 	@echo "... FactoryUpgrades/FactoryDecorator.o"
 	@echo "... FactoryUpgrades/FactoryDecorator.i"
 	@echo "... FactoryUpgrades/FactoryDecorator.s"
-	@echo "... Spells/Spell.o"
-	@echo "... Spells/Spell.i"
-	@echo "... Spells/Spell.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Maze/DSU.o"
+	@echo "... Maze/DSU.i"
+	@echo "... Maze/DSU.s"
+	@echo "... Maze/Maze.o"
+	@echo "... Maze/Maze.i"
+	@echo "... Maze/Maze.s"
+	@echo "... Maze/MazeCell.o"
+	@echo "... Maze/MazeCell.i"
+	@echo "... Maze/MazeCell.s"
 	@echo "... Units/CompositeUnit.o"
 	@echo "... Units/CompositeUnit.i"
 	@echo "... Units/CompositeUnit.s"

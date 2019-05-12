@@ -31,7 +31,6 @@ test/CMakeFiles/game_tests.dir/test.cpp.o: ../test/../src/Factories/ElfFactory.h
 test/CMakeFiles/game_tests.dir/test.cpp.o: ../test/../src/Factories/GoblinFactory.h
 test/CMakeFiles/game_tests.dir/test.cpp.o: ../test/../src/Factories/HumanFactory.h
 test/CMakeFiles/game_tests.dir/test.cpp.o: ../test/../src/Factories/OrcFactory.h
-test/CMakeFiles/game_tests.dir/test.cpp.o: ../test/../src/Spells/Spell.h
 test/CMakeFiles/game_tests.dir/test.cpp.o: ../test/../src/Units/Unit.h
 test/CMakeFiles/game_tests.dir/test.cpp.o: ../test/test.cpp
 test/CMakeFiles/game_tests.dir/test.cpp.o: googletest/googletest-src/googletest/include/gtest/gtest-death-test.h

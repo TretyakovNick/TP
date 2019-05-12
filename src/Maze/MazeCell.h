@@ -10,17 +10,15 @@
 #include <random>
 #include <time.h>
 
-class OutOfMaze : std::exception {};
-class GoingToWallCell : std::exception {};
+class GoingToWall : std::exception {};
 
 class MazeCell {
 public:
-    const static int TYPES_COUNT = 5;
+    const static int TYPES_COUNT = 4;
     const static int DIRECTIONS = 4;
     enum ECellType {
-        wall, factory,
-        boss_room, base,
-        empty
+        empty, factory, base,
+        boss_room
     };
     enum Direction {
         up, down,
@@ -30,9 +28,8 @@ public:
     void set_neighbour(Direction d, MazeCell *neighbour);
     MazeCell *get_neighbour(Direction d) const;
     MazeCell();
-    void generate_random();
-private:
     ECellType type;
+private:
     MazeCell *neighbours[DIRECTIONS];
 };
 

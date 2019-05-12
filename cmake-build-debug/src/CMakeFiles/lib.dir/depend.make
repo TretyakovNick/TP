@@ -4,60 +4,132 @@
 src/CMakeFiles/lib.dir/Boss/Boss.cpp.o: ../src/Boss/Boss.cpp
 src/CMakeFiles/lib.dir/Boss/Boss.cpp.o: ../src/Boss/Boss.h
 
-src/CMakeFiles/lib.dir/CArmy.cpp.o: ../src/Spells/Spell.h
-src/CMakeFiles/lib.dir/CArmy.cpp.o: ../src/Units/CompositeUnit.h
-src/CMakeFiles/lib.dir/CArmy.cpp.o: ../src/Units/Unit.h
 src/CMakeFiles/lib.dir/CArmy.cpp.o: ../src/CArmy.cpp
 src/CMakeFiles/lib.dir/CArmy.cpp.o: ../src/CArmy.h
+src/CMakeFiles/lib.dir/CArmy.cpp.o: ../src/Maze/MazeCell.h
+src/CMakeFiles/lib.dir/CArmy.cpp.o: ../src/Units/CompositeUnit.h
+src/CMakeFiles/lib.dir/CArmy.cpp.o: ../src/Units/Unit.h
+
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/CArmy.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Commands/BaseCommands/BuyBaseUnits.cpp
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Commands/BaseCommands/BuyBaseUnits.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Commands/Command.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Factories/CArmyFactory.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Factories/HumanFactory.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/FactoryUpgrades/BaseDecorator.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/FactoryUpgrades/FactoryDecorator.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Game.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Maze/Maze.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Maze/MazeCell.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Units/CompositeUnit.h
+src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Units/Unit.h
+
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/CArmy.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Commands/Command.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Commands/MazeCommands/MazeCommands.cpp
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Commands/MazeCommands/MazeCommands.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Factories/CArmyFactory.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Factories/HumanFactory.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/FactoryUpgrades/BaseDecorator.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/FactoryUpgrades/FactoryDecorator.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Game.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Maze/Maze.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Maze/MazeCell.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Units/CompositeUnit.h
+src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Units/Unit.h
+
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/CArmy.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/BaseCommands/BuyBaseUnits.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/Command.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/MazeCommands/MazeCommands.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/ParseKey.cpp
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/ParseKey.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/SlotCommands/SlotMerge.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Factories/CArmyFactory.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Factories/HumanFactory.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/FactoryUpgrades/BaseDecorator.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/FactoryUpgrades/FactoryDecorator.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Game.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Maze/Maze.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Maze/MazeCell.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Units/CompositeUnit.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Units/Unit.h
+
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/CArmy.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Commands/Command.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Commands/SlotCommands/SlotMerge.cpp
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Commands/SlotCommands/SlotMerge.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Factories/CArmyFactory.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Factories/HumanFactory.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/FactoryUpgrades/BaseDecorator.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/FactoryUpgrades/FactoryDecorator.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Game.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Maze/Maze.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Maze/MazeCell.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Units/CompositeUnit.h
+src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o: ../src/Units/Unit.h
 
 src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o: ../src/Factories/CArmyFactory.h
 src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o: ../src/Factories/ElfFactory.cpp
 src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o: ../src/Factories/ElfFactory.h
-src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o: ../src/Spells/Spell.h
 src/CMakeFiles/lib.dir/Factories/ElfFactory.cpp.o: ../src/Units/Unit.h
 
 src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o: ../src/Factories/CArmyFactory.h
 src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o: ../src/Factories/GoblinFactory.cpp
 src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o: ../src/Factories/GoblinFactory.h
-src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o: ../src/Spells/Spell.h
 src/CMakeFiles/lib.dir/Factories/GoblinFactory.cpp.o: ../src/Units/Unit.h
 
 src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o: ../src/Factories/CArmyFactory.h
 src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o: ../src/Factories/HumanFactory.cpp
 src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o: ../src/Factories/HumanFactory.h
-src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o: ../src/Spells/Spell.h
 src/CMakeFiles/lib.dir/Factories/HumanFactory.cpp.o: ../src/Units/Unit.h
 
 src/CMakeFiles/lib.dir/Factories/OrcFactory.cpp.o: ../src/Factories/CArmyFactory.h
 src/CMakeFiles/lib.dir/Factories/OrcFactory.cpp.o: ../src/Factories/OrcFactory.cpp
 src/CMakeFiles/lib.dir/Factories/OrcFactory.cpp.o: ../src/Factories/OrcFactory.h
-src/CMakeFiles/lib.dir/Factories/OrcFactory.cpp.o: ../src/Spells/Spell.h
 src/CMakeFiles/lib.dir/Factories/OrcFactory.cpp.o: ../src/Units/Unit.h
 
 src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/CArmy.h
 src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/Factories/CArmyFactory.h
-src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/Spells/Spell.h
-src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/Units/CompositeUnit.h
-src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/Units/Unit.h
 src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/FactoryUpgrades/BaseDecorator.cpp
 src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/FactoryUpgrades/BaseDecorator.h
 src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/FactoryUpgrades/FactoryDecorator.h
+src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/Maze/MazeCell.h
+src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/Units/CompositeUnit.h
+src/CMakeFiles/lib.dir/FactoryUpgrades/BaseDecorator.cpp.o: ../src/Units/Unit.h
 
 src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o: ../src/Factories/CArmyFactory.h
-src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o: ../src/Spells/Spell.h
-src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o: ../src/Units/Unit.h
 src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o: ../src/FactoryUpgrades/FactoryDecorator.cpp
 src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o: ../src/FactoryUpgrades/FactoryDecorator.h
+src/CMakeFiles/lib.dir/FactoryUpgrades/FactoryDecorator.cpp.o: ../src/Units/Unit.h
 
-src/CMakeFiles/lib.dir/Spells/Spell.cpp.o: ../src/Spells/Spell.cpp
-src/CMakeFiles/lib.dir/Spells/Spell.cpp.o: ../src/Spells/Spell.h
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/CArmy.h
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/Factories/CArmyFactory.h
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/Factories/HumanFactory.h
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/FactoryUpgrades/BaseDecorator.h
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/FactoryUpgrades/FactoryDecorator.h
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/Game.cpp
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/Game.h
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/Maze/Maze.h
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/Maze/MazeCell.h
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/Units/CompositeUnit.h
+src/CMakeFiles/lib.dir/Game.cpp.o: ../src/Units/Unit.h
 
-src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o: ../src/Spells/Spell.h
+src/CMakeFiles/lib.dir/Maze/DSU.cpp.o: ../src/Maze/DSU.cpp
+src/CMakeFiles/lib.dir/Maze/DSU.cpp.o: ../src/Maze/DSU.h
+
+src/CMakeFiles/lib.dir/Maze/Maze.cpp.o: ../src/Maze/DSU.h
+src/CMakeFiles/lib.dir/Maze/Maze.cpp.o: ../src/Maze/Maze.cpp
+src/CMakeFiles/lib.dir/Maze/Maze.cpp.o: ../src/Maze/Maze.h
+src/CMakeFiles/lib.dir/Maze/Maze.cpp.o: ../src/Maze/MazeCell.h
+
+src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.o: ../src/Maze/MazeCell.cpp
+src/CMakeFiles/lib.dir/Maze/MazeCell.cpp.o: ../src/Maze/MazeCell.h
+
 src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o: ../src/Units/CompositeUnit.cpp
 src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o: ../src/Units/CompositeUnit.h
 src/CMakeFiles/lib.dir/Units/CompositeUnit.cpp.o: ../src/Units/Unit.h
 
-src/CMakeFiles/lib.dir/Units/Unit.cpp.o: ../src/Spells/Spell.h
 src/CMakeFiles/lib.dir/Units/Unit.cpp.o: ../src/Units/Unit.cpp
 src/CMakeFiles/lib.dir/Units/Unit.cpp.o: ../src/Units/Unit.h
 

@@ -6,7 +6,7 @@
 #define GAME_FACTORYDECORATOR_H
 
 
-#include <Factories/CArmyFactory.h>
+#include "../Factories/CArmyFactory.h"
 
 class MaxLevelReached : std::exception {};
 class NotEnoughUnits : std::exception {};

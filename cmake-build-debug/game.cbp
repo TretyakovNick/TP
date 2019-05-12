@@ -476,6 +476,33 @@
 		<Unit filename="/home/nick/Codes/TP/src/CArmy.h">
 			<Option target="lib"/>
 		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/BaseCommands/BuyBaseUnits.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/BaseCommands/BuyBaseUnits.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/Command.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/MazeCommands/MazeCommands.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/MazeCommands/MazeCommands.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/ParseKey.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/ParseKey.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/SlotCommands/SlotMerge.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/SlotCommands/SlotMerge.h">
+			<Option target="lib"/>
+		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Factories/ElfFactory.cpp">
 			<Option target="lib"/>
 		</Unit>
@@ -512,10 +539,28 @@
 		<Unit filename="/home/nick/Codes/TP/src/FactoryUpgrades/FactoryDecorator.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/nick/Codes/TP/src/Spells/Spell.cpp">
+		<Unit filename="/home/nick/Codes/TP/src/Game.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/nick/Codes/TP/src/Spells/Spell.h">
+		<Unit filename="/home/nick/Codes/TP/src/Game.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Maze/DSU.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Maze/DSU.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Maze/Maze.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Maze/Maze.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Maze/MazeCell.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Maze/MazeCell.h">
 			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Units/CompositeUnit.cpp">
