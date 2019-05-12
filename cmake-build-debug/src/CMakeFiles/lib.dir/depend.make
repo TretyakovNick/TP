@@ -24,6 +24,20 @@ src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Maze/Maz
 src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Units/CompositeUnit.h
 src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o: ../src/Units/Unit.h
 
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/CArmy.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Commands/Command.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Commands/GameCommands/QuitGame.cpp
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Commands/GameCommands/QuitGame.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Factories/CArmyFactory.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Factories/HumanFactory.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/FactoryUpgrades/BaseDecorator.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/FactoryUpgrades/FactoryDecorator.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Game.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Maze/Maze.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Maze/MazeCell.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Units/CompositeUnit.h
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Units/Unit.h
+
 src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/CArmy.h
 src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Commands/Command.h
 src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Commands/MazeCommands/MazeCommands.cpp
@@ -41,6 +55,7 @@ src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o: ../src/Units/Un
 src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/CArmy.h
 src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/BaseCommands/BuyBaseUnits.h
 src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/Command.h
+src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/GameCommands/QuitGame.h
 src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/MazeCommands/MazeCommands.h
 src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/ParseKey.cpp
 src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o: ../src/Commands/ParseKey.h

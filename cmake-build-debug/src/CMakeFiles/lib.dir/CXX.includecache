@@ -22,6 +22,20 @@ Units/CompositeUnit.h
 Maze/MazeCell.h
 /home/nick/Codes/TP/src/Maze/MazeCell.h
 
+/home/nick/Codes/TP/src/Commands/Command.h
+ncurses.h
+-
+../Game.h
+/home/nick/Codes/TP/src/Game.h
+
+/home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.cpp
+QuitGame.h
+/home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.h
+
+/home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.h
+../Command.h
+/home/nick/Codes/TP/src/Commands/Command.h
+
 /home/nick/Codes/TP/src/Factories/CArmyFactory.h
 ../Units/Unit.h
 /home/nick/Codes/TP/src/Units/Unit.h
@@ -39,12 +53,6 @@ FactoryDecorator.h
 /home/nick/Codes/TP/src/FactoryUpgrades/FactoryDecorator.h
 ../Factories/CArmyFactory.h
 /home/nick/Codes/TP/src/Factories/CArmyFactory.h
-
-/home/nick/Codes/TP/src/Game.cpp
-ncurses.h
--
-Game.h
-/home/nick/Codes/TP/src/Game.h
 
 /home/nick/Codes/TP/src/Game.h
 FactoryUpgrades/BaseDecorator.h

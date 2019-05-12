@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nick/Codes/TP/src/Boss/Boss.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Boss/Boss.cpp.o"
   "/home/nick/Codes/TP/src/CArmy.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/CArmy.cpp.o"
   "/home/nick/Codes/TP/src/Commands/BaseCommands/BuyBaseUnits.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o"
+  "/home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o"
   "/home/nick/Codes/TP/src/Commands/MazeCommands/MazeCommands.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o"
   "/home/nick/Codes/TP/src/Commands/ParseKey.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o"
   "/home/nick/Codes/TP/src/Commands/SlotCommands/SlotMerge.cpp" "/home/nick/Codes/TP/cmake-build-debug/src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o"

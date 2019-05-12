@@ -2,6 +2,7 @@
 // Created by nick on 12.05.19.
 //
 
+#include "GameCommands/QuitGame.h"
 #include "MazeCommands/MazeCommands.h"
 #include "SlotCommands/SlotMerge.h"
 #include "BaseCommands/BuyBaseUnits.h"
@@ -32,6 +33,9 @@ void ParseKey::execute() {
         } catch (GoingToWall &e) {
             //nothing
         }
+    } else if (key == int('q')) {
+        Command *c = new QuitGame(game);
+        c->execute();
     }
     halfdelay(1);
     game->update_time(time(NULL));

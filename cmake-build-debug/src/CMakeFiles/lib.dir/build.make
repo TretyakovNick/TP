@@ -291,6 +291,19 @@ src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.s"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Commands/BaseCommands/BuyBaseUnits.cpp -o CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.s
 
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: src/CMakeFiles/lib.dir/flags.make
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o: ../src/Commands/GameCommands/QuitGame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o -c /home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.cpp
+
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.i"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.cpp > CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.i
+
+src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.s"
+	cd /home/nick/Codes/TP/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.cpp -o CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.s
+
 # Object files for target lib
 lib_OBJECTS = \
 "CMakeFiles/lib.dir/Factories/OrcFactory.cpp.o" \
@@ -310,7 +323,8 @@ lib_OBJECTS = \
 "CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o" \
 "CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o" \
 "CMakeFiles/lib.dir/Commands/ParseKey.cpp.o" \
-"CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o"
+"CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o" \
+"CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o"
 
 # External object files for target lib
 lib_EXTERNAL_OBJECTS =
@@ -333,9 +347,10 @@ src/liblib.a: src/CMakeFiles/lib.dir/Commands/MazeCommands/MazeCommands.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/Commands/ParseKey.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o
+src/liblib.a: src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o
 src/liblib.a: src/CMakeFiles/lib.dir/build.make
 src/liblib.a: src/CMakeFiles/lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library liblib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/Codes/TP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library liblib.a"
 	cd /home/nick/Codes/TP/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean_target.cmake
 	cd /home/nick/Codes/TP/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
 

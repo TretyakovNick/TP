@@ -485,6 +485,12 @@
 		<Unit filename="/home/nick/Codes/TP/src/Commands/Command.h">
 			<Option target="lib"/>
 		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/nick/Codes/TP/src/Commands/GameCommands/QuitGame.h">
+			<Option target="lib"/>
+		</Unit>
 		<Unit filename="/home/nick/Codes/TP/src/Commands/MazeCommands/MazeCommands.cpp">
 			<Option target="lib"/>
 		</Unit>

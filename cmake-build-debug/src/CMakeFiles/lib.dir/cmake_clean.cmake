@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lib.dir/Commands/SlotCommands/SlotMerge.cpp.o"
   "CMakeFiles/lib.dir/Commands/ParseKey.cpp.o"
   "CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.o"
+  "CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o"
   "liblib.pdb"
   "liblib.a"
 )

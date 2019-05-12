@@ -263,6 +263,33 @@ Commands/BaseCommands/BuyBaseUnits.cpp.s:
 	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/BaseCommands/BuyBaseUnits.cpp.s
 .PHONY : Commands/BaseCommands/BuyBaseUnits.cpp.s
 
+Commands/GameCommands/QuitGame.o: Commands/GameCommands/QuitGame.cpp.o
+
+.PHONY : Commands/GameCommands/QuitGame.o
+
+# target to build an object file
+Commands/GameCommands/QuitGame.cpp.o:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.o
+.PHONY : Commands/GameCommands/QuitGame.cpp.o
+
+Commands/GameCommands/QuitGame.i: Commands/GameCommands/QuitGame.cpp.i
+
+.PHONY : Commands/GameCommands/QuitGame.i
+
+# target to preprocess a source file
+Commands/GameCommands/QuitGame.cpp.i:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.i
+.PHONY : Commands/GameCommands/QuitGame.cpp.i
+
+Commands/GameCommands/QuitGame.s: Commands/GameCommands/QuitGame.cpp.s
+
+.PHONY : Commands/GameCommands/QuitGame.s
+
+# target to generate assembly for a file
+Commands/GameCommands/QuitGame.cpp.s:
+	cd /home/nick/Codes/TP/cmake-build-debug && $(MAKE) -f src/CMakeFiles/lib.dir/build.make src/CMakeFiles/lib.dir/Commands/GameCommands/QuitGame.cpp.s
+.PHONY : Commands/GameCommands/QuitGame.cpp.s
+
 Commands/MazeCommands/MazeCommands.o: Commands/MazeCommands/MazeCommands.cpp.o
 
 .PHONY : Commands/MazeCommands/MazeCommands.o
@@ -691,6 +718,9 @@ help:
 	@echo "... Commands/BaseCommands/BuyBaseUnits.o"
 	@echo "... Commands/BaseCommands/BuyBaseUnits.i"
 	@echo "... Commands/BaseCommands/BuyBaseUnits.s"
+	@echo "... Commands/GameCommands/QuitGame.o"
+	@echo "... Commands/GameCommands/QuitGame.i"
+	@echo "... Commands/GameCommands/QuitGame.s"
 	@echo "... Commands/MazeCommands/MazeCommands.o"
 	@echo "... Commands/MazeCommands/MazeCommands.i"
 	@echo "... Commands/MazeCommands/MazeCommands.s"

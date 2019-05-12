@@ -17,7 +17,7 @@ set(SOURCE_LIB
         Commands/MazeCommands/MazeCommands.cpp
         Commands/SlotCommands/SlotMerge.cpp
         Commands/ParseKey.cpp
-        Commands/BaseCommands/BuyBaseUnits.cpp)
+        Commands/BaseCommands/BuyBaseUnits.cpp Commands/GameCommands/QuitGame.cpp Commands/GameCommands/QuitGame.h)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
